@@ -1,0 +1,45 @@
+/* Write your code here. */
+* {
+  font-family: 'Roboto';
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f5f8;
+  height: 100vh;
+  /* padding-top: 123px; */
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 14px;
+  /* width: 90%;
+  max-width: 1140px; */
+  width: 75%;
+  padding: 32px;
+}
+
+.faq-heading {
+  color: #cb8805;
+  font-weight: 600;
+  font-size: 46px;
+  margin-bottom: 52px;
+}
+
+.faq-list-container {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+}

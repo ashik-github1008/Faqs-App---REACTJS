@@ -1,0 +1,33 @@
+/* Write your code here. */
+.ques-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.question {
+  color: #52606d;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.faq-list-item {
+  border-radius: 16px;
+  border: 2px solid #d7dae6;
+  padding: 18px;
+  width: 100%;
+}
+
+.hr-line {
+  border: 1px solid #d7dae6;
+}
+
+.faq-btn {
+  border: none;
+  background-color: transparent;
+}
+
+.faq-btn:focus {
+  outline: none;
+  cursor: pointer;
+}
